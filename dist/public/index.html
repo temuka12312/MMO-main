@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="mn">
+<head>
+  <meta charset="UTF-8">
+  <title>Ner Page</title>
+</head>
+<body>
+  <h1>Таны нэрийг оруулна уу:</h1>
+  <input type="text" id="nameInput" placeholder="Нэр">
+  <button id="submitBtn">Илгээх</button>
+  <p id="greeting"></p>
+
+  <script>
+    const btn = document.getElementById("submitBtn");
+    const input = document.getElementById("nameInput");
+    const greeting = document.getElementById("greeting");
+
+    btn.addEventListener("click", () => {
+      const name = input.value.trim();
+      greeting.textContent = name ? `Сайн байна уу, ${name}! 👋` : "Нэрээ оруулна уу!";
+    });
+  </script>
+</body>
+</html>
