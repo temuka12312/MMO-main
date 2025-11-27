@@ -1,0 +1,24 @@
+{
+  "name": "mmo-main",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/temuka12312/MMO-main.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/temuka12312/MMO-main/issues"
+  },
+  "homepage": "https://github.com/temuka12312/MMO-main#readme",
+  "devDependencies": {
+    "typescript": "^5.9.3"
+  }
+}
